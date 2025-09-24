@@ -18,22 +18,42 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shanthini's blog
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: shanthini
-github_username:  Shanthinisakthi12
+title: Shanthini's Blog
+author: Shanthini Sakthivel
+email: shanthinisakthivelu@gmail.com
+description: "Bridging theory and practice in computer science, one post at a time."
+baseurl: "" 
+url: "https://github.com/Shanthinisakthi12.github.io"
+
+# Navigation bar links
+#header_pages:
+ # - about.md
+  #- contact.md
+  #- reviews.md
+  #- categories.md
+  #- tags.md
+  #- resources.md
+  #- index.md   # optional, if you want Home to appear
 
 # Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Categories & tags (optional, used for organizing posts)
+categories: [datastructures, theoryofcomputation, ai, nlp, mal]
+tags: [advanced, placement, problem-solving, tutorials, research]
+
+# Include math support
+math: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

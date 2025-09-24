@@ -1,0 +1,8 @@
+<div class="callout" style="border-left: 6px solid {{ include.border | default: '#3182ce' }}; background: {{ include.bg | default: '#f0f8ff' }}; padding: 1em; margin: 1.5em 0; border-radius: 6px;">
+  {% if include.title %}
+    <strong style="color: {{ include.border | default: '#3182ce' }}; display:block; margin-bottom:0.5em;">{{ include.title }}</strong>
+  {% endif %}
+  <div style="color:#2d3748; font-size:0.95em;">
+    {{ include.content | markdownify }}
+  </div>
+</div>

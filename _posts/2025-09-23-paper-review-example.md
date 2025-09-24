@@ -1,0 +1,85 @@
+---
+
+layout: post
+title: "Paper Review: Example Paper"
+date: 2025-09-23
+categories: [reviews]
+tags: [paper-review, research, cs]
+math: true
+intuition: "The core trick of the algorithm is to amortize operations to achieve O(1) time complexity."
+challenge: "Try applying this technique to a red-black tree insertion scenario."
+---
+
+---
+
+## 📑 Basic Info  
+- **Paper:** [Full Paper Title]  
+- **Authors:** [Author Names]  
+- **Published in:** [Conference/Journal, Year]  
+- **Link:** [DOI or PDF link]  
+
+---
+
+## 📝 Summary  
+Briefly outline what the paper is about:  
+
+- What **problem** does it solve?  
+- Why is the problem important?  
+- What approach or framework is proposed?  
+
+---
+
+## 🔑 Key Contributions  
+- Contribution 1  
+- Contribution 2  
+- Contribution 3  
+
+Use bullet points to highlight what makes the paper stand out.  
+
+---
+
+## 🧩 Technical Details  
+If the paper is mathematical or algorithmic, summarize the core methods:  
+
+- Main equations, theorems, or algorithms (with LaTeX if needed):  
+
+$$
+T(n) = T(n/2) + O(1) \implies T(n) = O(\log n)
+$$
+
+- Figures, diagrams, or pseudocode (if applicable).  
+
+{% include callout.html border="#3182ce" bg="#ebf8ff" title="Intuition Box" content="The core trick of the algorithm is to amortize operations to achieve O(1) time complexity." %}
+
+
+---
+
+## 🎯 Strengths  
+- What the paper does particularly well  
+- Novel ideas, clarity, experimental rigor, or connections to theory  
+
+---
+
+## ⚠️ Limitations / Critique  
+- What could have been better?  
+- Any assumptions that feel too strong?  
+- Open questions left unanswered?  
+
+{% include callout.html border="#dd6b20" bg="#fffaf0" title="Challenge Corner" content="Try applying this technique to a red-black tree insertion scenario." %}
+
+
+---
+
+## 🌐 Connections & Applications  
+- How does this relate to **other work**?  
+- Where can the results be applied (industry, theory, teaching)?  
+
+---
+
+## ✨ Takeaways  
+Summarize in 2–3 bullet points what a reader should *remember* after reading this paper.  
+
+- Takeaway 1  
+- Takeaway 2  
+
+---
