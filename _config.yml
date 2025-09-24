@@ -22,7 +22,7 @@ title: Shanthini's Blog
 author: Shanthini Sakthivel
 email: shanthinisakthivelu@gmail.com
 description: "Bridging theory and practice in computer science, one post at a time."
-baseurl: "" 
+baseurl: ""
 url: "https://github.com/Shanthinisakthi12.github.io"
 
 # Navigation bar links
@@ -47,10 +47,23 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 # Categories & tags (optional, used for organizing posts)
 categories: [datastructures, theoryofcomputation, ai, nlp, mal]
 tags: [advanced, placement, problem-solving, tutorials, research]
+#show_excerpts: true
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Include math support
 math: true

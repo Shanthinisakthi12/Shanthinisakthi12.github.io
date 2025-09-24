@@ -1,29 +1,62 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-09-23 20:48:44 +0530
-categories: jekyll update
+title:  "Hey all!!"
+date:   2025-09-20 20:48:44 +0530
+categories: data structures
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# 🚀 Welcome to My Computer Science Advanced Series: A Roadmap
 
-`YEAR-MONTH-DAY-title.MARKUP`
+As an **assistant professor in Computer Science**, I often get asked by students and enthusiasts how to approach the vast landscape of CS topics. To make learning **structured and effective**, I’ve created a **series of advanced blog posts** across multiple domains in computer science. Each series is carefully planned to cover:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+- **Theory**
+- **Practical coding**
+- **Problem-solving techniques**
 
-Jekyll also offers powerful support for code snippets:
+Here’s a **roadmap of the series** and what you can expect:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+---
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Series -1 -- Advanced Data Structures (ADS)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+**Series Title:** *Beyond Arrays & Linked Lists – Deep Dive into Data Structures*  
+
+**Focus:**  
+Mastering data structures that go beyond basic arrays and linked lists, understanding their **implementation, use cases**, and optimizing problem-solving skills for **interviews and competitive programming**.
+
+---
+
+### Planned Sub-Series
+
+#### 1.1 Foundations of Advanced DS
+- **Recap of basic data structures** for context  
+- Introduction to:
+  - **Trees**  
+  - **Graphs**  
+  - **Heaps**  
+  - **Hashing**  
+- **Complexity analysis** and common pitfalls
+
+#### 1.2 Advanced Data Structures
+- **Segment Trees**  
+- **Fenwick Trees (Binary Indexed Trees)**  
+- **Disjoint Set Union (Union-Find)**  
+- **Trie, Suffix Trees, Sparse Tables**
+
+#### 1.3 Placement Prep Questions
+- Solve **real coding problems** using advanced structures  
+- Step-by-step solutions in **C, Java, and Python**  
+- **Time and space complexity discussion**  
+
+---
+
+### Why Read This Series
+By the end of this series, readers will:  
+- Implement advanced data structures with confidence  
+- Solve complex problems **efficiently**  
+- Gain an **edge in coding interviews and competitive programming**
+
+---
+
+**Next Steps:**  
+Stay tuned for the first post in the series: **Foundations of Advanced Data Structures**, where we’ll dive into **Trees, Graphs, Heaps, and Hashing** with **code examples and diagrams**.
