@@ -10,7 +10,7 @@ This page automatically lists all my paper review posts along with key highlight
 
 ---
 
-{% assign review_posts = site.categories.reviews | sort: 'date' | reverse %}
+{% assign review_posts = site.posts | where_exp:"p","p.categories contains 'reviews'" | sort: "date" | reverse %}
 
 {% for post in review_posts %}
 ### [{{ post.title }}]({{ post.url }})
@@ -28,4 +28,5 @@ This page automatically lists all my paper review posts along with key highlight
 
 ---
 {% endfor %}
+
 
