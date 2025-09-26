@@ -5,20 +5,27 @@ permalink: /about/
 header: true
 ---
 
-## 👋 Welcome to My Blog
+## 👋 Welcome  
 
-This space is dedicated to exploring the core and advanced areas of **computer science**—from algorithms and data structures to the deeper layers of theory and computation.  
+*“Exploring computer science from fundamentals to frontiers.”*  
 
-Here, I share:  
+This blog is a space where I share insights on:  
 
-- 📘 Explanations of complex concepts in a structured way  
-- 🧩 Problems with step-by-step solutions  
-- 🎯 Insights that connect theory with practical applications  
-- 📚 Curated resources and references for further exploration  
+- 📘 **Core Computer Science Foundations**  
+  Discrete Mathematics, Graph Theory, Data Structures, Algorithms, Linear Algebra, Probability, Theory of Computation, and Complexity  
 
-My goal is simple:  
-To make high-level computer science topics **clear, rigorous, and enjoyable** to learn.  
+- 🖥️ **Systems & Applications**  
+  Digital Logic, Computer Organization & Architecture, Compilers, Operating Systems, Networks, and Databases  
 
-Whether you’re revisiting fundamentals or diving into advanced subjects, I hope you find something here that sparks curiosity.  
+- ✍️ **Research & Writing**  
+  Academic writing tips, structured problem-solving approaches, and literature insights  
+
+- 🚀 **Trends & Beyond**  
+  New developments in Artificial Intelligence, Machine Learning, and NLP  
+
+The goal is simple: to make advanced computer science topics **clear, structured, and engaging**, while connecting theory with practice and research.  
 
 ---
+
+
+💡 Whether you’re strengthening your foundations, sharpening your problem-solving, or exploring new frontiers in AI, this blog is here to support your journey.  
